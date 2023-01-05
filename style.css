@@ -112,9 +112,13 @@
     justify-content: space-around;
   }
   
+    
+  
+  
   button {
     background: transparent linear-gradient(113deg, #6E54EC 0%, #CB52F8 40%, #FC5EFF 81%, #F1A7C5 100%) 0% 0% no-repeat padding-box;
     border-radius: 4px;
+    border: none;
     opacity: 1;
     color: white;
     font: normal normal 600 24px/38px Manrope;
@@ -286,4 +290,8 @@
     background: #FFFFFF 0% 0% no-repeat padding-box;
     border-radius: 10px;
     opacity: 0.5;
+  }
+
+  .timeline_img{
+    background-image: url('./random.webp');
   }
