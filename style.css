@@ -7,8 +7,10 @@
     display: flex;
     justify-content: space-around;
 
-    margin: 2%;
+    margin-left:6%;
+    margin-right:6%;
     background-color: #3D087B;
+    width:auto
   }
   
   .left-container {
@@ -45,6 +47,7 @@
   
     margin: 5%;
   }
+  
   .icon{
     
     display: flex;
@@ -165,7 +168,7 @@
   }
   
   .timeline_img {
-    background-image: url("./Component.png");
+    background-image: url("./random.webp");
     width: 536px;
     height: 341px;
     background-repeat: no-repeat;
@@ -265,7 +268,7 @@
   }
   
   .text {
-    width: 492px;
+    width: 550px;
     height: 38px;
     font: 900 25px Preahvihear;
     color: #8E53F0;
