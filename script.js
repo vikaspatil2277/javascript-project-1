@@ -70,19 +70,19 @@ function timerfn(){
     let nightTimeAlarm=d4.value;
     
     
-    if(wakeupTimeAlarm==hourhand-1){
+    if(wakeupTimeAlarm==hourhand){
       messageTwo.innerHTML = "GRAB SOME HEALTHY BREAKFAST!!!";
       image.style.backgroundImage = "URL('Component30.png')";    
     }
-    else if(lunchTimeAlarm==hourhand-1){
+    else if(lunchTimeAlarm==hourhand){
       messageTwo.innerText = "LET'S HAVE SOME LUNCH !!";
       image.style.backgroundImage = "URL('Component31.png')";
     }
-    else if(napTimeAlarm==hourhand-1){
+    else if(napTimeAlarm==hourhand){
       messageTwo.innerText = "STOP YAWNING, GET SOME TEA.. ITS JUST EVENING!";
       image.style.backgroundImage = "URL('lunch_image.png')";    
     }
-    else if(nightTimeAlarm==hourhand-1){
+    else if(nightTimeAlarm==hourhand){
       messageTwo.innerText = "CLOSE YOUR EYES AND GO TO SLEEP";
       image.style.backgroundImage = "URL('Component32.png')";     
   }
